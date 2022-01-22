@@ -1,0 +1,101 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url('../assets/crew/background-crew-desktop.jpg');
+}
+
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot:hover{
+	background-color: white;
+}
+.dot-active{
+	background-color: white;
+}
+
+section{
+	padding: 70px;
+	padding-bottom: 0px;
+}
+.crew-text{
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	word-spacing: 10px;
+}
+.crew-text span{
+	color: gray;
+}
+
+.crew-info{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	align-items: center;
+}
+.crew-personal-info{
+	width: 40%;
+}
+.crew-image{
+	width: 40%;
+}
+.crew-image img{
+	width: 90%;
+}
+.change{
+	margin-top: 100px;
+	text-align: center;
+}
+.pos{font-size: 20px; text-transform: uppercase;color: gray; line-height: 40px;}
+.name{
+	font-size: 45px;
+	color: white;
+	text-transform: uppercase;
+}
+.about p {
+	color:lightgray;
+}
+
+@media only screen and (max-width: 375px){
+	.crew-info{
+		display: block;
+	}
+	body{
+		background: url('../assets/crew/background-crew-mobile.jpg');
+	}
+	.crew-personal-info{
+		width: 100%;
+	}
+	.crew-image{
+		width: 100%;
+	}
+	.crew-image img{
+		width: 100%;
+	}
+	.change{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	section{
+		padding: 20px;
+	}
+	.crew-text{
+		text-align: center;
+		margin: auto;
+	}
+	.pos,.name,.about{
+		text-align: center;
+	}
+	.name{
+		font-size: 40px;
+	}
+
+}

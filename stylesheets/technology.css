@@ -1,0 +1,87 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:  url('../assets/technology/background-technology-desktop.jpg');
+}
+
+.component{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+.tech-component{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tech-text span{color: gray; word-spacing: 3px;}
+.tech-text{padding-left: 60px;color: white;}
+
+img{
+	width: 34%;
+}
+.circular-button div.button-active{
+	background-color: white;
+	color: black;
+}
+
+.tech-component{
+	width: 40%;
+	padding-left:100px;
+}
+
+.circular-button div{
+	padding: 20px 25px;
+	border: 1px solid gray;
+	background-color: inherit;
+	border-radius: 50%;
+	text-align: center;
+	margin: 10px;
+	color: gray;
+	cursor: pointer;
+}
+
+.circular-button{
+	margin-right:30px;
+}
+.first {
+	color: white;
+}
+.vehicle{
+	font-size: 45px;
+	color: white;
+}
+p{
+	color: gray;
+}
+@media only screen and (max-width: 375px){
+	body{
+		background:  url('../assets/technology/background-technology-mobile.jpg');
+	}
+	.component{
+		display: block;
+	}
+	.tech-component{
+		display: block;
+	}
+	.circular-button{
+		display: inline-flex;
+		margin-bottom: 40px;
+	}
+	.tech-component{
+		width: 100%;
+		padding-left:0px;
+		text-align: center;
+	}
+	img{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.tech-text{
+		text-align: center;
+		padding-left: 0px;
+	}
+}

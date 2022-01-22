@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="stylesheets/general.css"> 
+  <link rel="stylesheet" type="text/css" href="stylesheets/destination.css">
+  
+  <title>Frontend Mentor | Space tourism website</title>  
+ 
+</head>
+<body id="destination">
+  <header>
+    <div class="logo">
+      
+    </div>
+    <div class="nav">
+      <a href="index.html">00 Home</a>
+      <a href="destination-mars.html" class="active">01 Destination</a>
+      <a href="crew-engineer.html">02 Crew</a>
+      <a href="technology-vehicle.html">03 Technology</a>
+    </div>
+    <div class="hamburger"></div>
+  </header>
+  <div class="lost">
+    <a href="index.html">00 Home</a>
+    <a href="destination-mars.html">01 Destination</a>
+    <a href="crew-engineer.html">02 Crew</a>
+    <a href="technology-vehicle.html" class="active">03 Technology</a>
+  </div>
+  <section id="destination-section">
+    <div class="dest-text">
+      <span>01</span> Pick your destination
+    </div>
+    <div class="dest-content">
+      <div class="dest-image">
+        <img src="assets/destination/image-mars.png" width="70%">
+      </div>
+      <div class="dest-details">
+        <div class="nav-text">
+          <button class="moon" id="moon">Moon</button>
+          <button class="active1 mars" id="mars">Mars</button>
+          <button class="europa" id="europa">Europa</button>
+          <button class="titan">Titan</button>
+        </div>
+        <div class="planet">Mars</div>
+        <div class="planet-details">
+          <p> Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!</p>
+        </div>
+        <div class="extra-info">
+          <div class="avg-dist">
+            Avg. distance
+            <span>225 mil. km</span>
+          </div>
+          <div class="est-time">
+            Est. travel time
+            <span>9 months</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script  src="data.json"></script>
+<script  src="destination.js"></script>
+</html>

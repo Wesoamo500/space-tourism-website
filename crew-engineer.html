@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="stylesheets/general.css"> 
+  <link rel="stylesheet" type="text/css" href="stylesheets/crew.css">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+  
+</head>
+<body>
+  <header>
+    <div class="logo">
+      
+    </div>
+    <div class="nav">
+      <a href="index.html">00 Home</a>
+      <a href="destination-mars.html">01 Destination</a>
+      <a href="crew-engineer.html" class="active">02 Crew</a>
+      <a href="technology-vehicle.html">03 Technology</a>
+    </div>
+    <div class="hamburger"></div>
+  </header>
+  <div class="lost">
+    <a href="index.html">00 Home</a>
+    <a href="destination-mars.html">01 Destination</a>
+    <a href="crew-engineer.html">02 Crew</a>
+    <a href="technology-vehicle.html" class="active">03 Technology</a>
+  </div>
+  <section>
+    <div class="crew-text">
+      <span>02</span> Meet your crew
+    </div>
+    <div class="crew-info">
+      <div class="crew-personal-info">
+        <div class="pos">Flight Engineer</div>
+        <div class="name">Anousheh Ansari</div>
+        <div class="about">
+          <p>Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</p>
+        </div>
+        <div class="change">
+          <span class="dot" id="one"></span>
+          <span class="dot" id="two"></span>
+          <span class="dot" id="three"></span>
+          <span class="dot dot-active" id="four"></span>
+        </div>
+      </div>
+      <div class="crew-image">
+        <img src="assets/crew/image-anousheh-ansari.png" alt="Flight Engineer">
+      </div>
+    </div>
+  </section>
+</body>
+<script src="crew.js"></script>
+<script src="data.json"></script>
+</html>

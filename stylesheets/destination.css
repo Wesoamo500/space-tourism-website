@@ -1,0 +1,118 @@
+#destination{
+	margin: 0px;
+	padding: 0px;
+	background: url('../assets/destination/background-destination-desktop.jpg');
+}
+
+.dest-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 80px;
+	padding: 20px;
+}
+.dest-image{
+	width:50%;
+	margin-left:150px;
+}
+
+.dest-details{
+	width: 40%;
+	margin-right: 150px;
+
+}
+.active1{
+	text-decoration: underline;
+}
+#destination-section{
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.nav-text{
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+}
+.nav-text button{
+	text-transform:uppercase ;
+	background: inherit;
+	border: none;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+.planet{
+	font-size: 100px;
+	color: white;
+}
+.planet-details p{
+	color: gray;
+	padding-bottom: 50px;
+	border-bottom: 1px solid gray;
+}
+.extra-info{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+.avg-dist,.est-time{
+	color: gray;
+}
+.avg-dist span, .est-time span{
+	color: white;
+	font-size: 20px;
+}
+
+.dest-text{
+	text-transform: uppercase;
+	font-size: 20px;
+	color: white;
+	margin-left: 150px;
+}
+.dest-text span{
+	color: gray;
+}
+
+@media only screen and (max-width: 375px){
+	.dest-content{
+		display: block;
+		margin-top: 10px;
+		padding: 10px;
+	}
+	.extra-info {
+    	width: 60%;
+    	margin: auto;
+    	display: inline-grid;
+    	justify-content: normal;
+	}
+	#destination-section {
+    	text-align: center;
+    	margin-left: 0px;
+    	margin-top: 40px;
+	}
+	.dest-text{
+		margin-left: 0px;
+	}
+	.dest-image {
+    	width: 100%;
+    	margin-left: 0px; 
+    	margin: auto;
+    	margin-bottom: 50px;
+	}
+	.dest-details {
+    	width: 100%;
+    	margin-right: 0px;
+    	margin: auto;
+	}
+	.avg-dist, .est-time {
+    	display: inline-grid;
+    	margin-bottom: 15px;
+	}
+	.planet-details p {
+    	font-size: 15px;
+    	width: 70%;
+    	margin: auto;
+    	margin-bottom: 30px;
+	}
+
+}
